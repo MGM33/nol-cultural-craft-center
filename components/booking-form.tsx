@@ -34,7 +34,7 @@ export function BookingForm() {
           Your visit is reserved
         </h3>
         <p className="mt-3 max-w-md text-sm leading-relaxed text-muted-foreground">
-          Thank you for booking with NOUL. A confirmation will be sent to your
+          Thank you for booking with NOL. A confirmation will be sent to your
           email with the details of your visit. We look forward to welcoming you.
         </p>
         <button

@@ -14,9 +14,9 @@ import {
 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Our Services | NOUL Cultural Craft Center',
+  title: 'Our Services | NOL Cultural Craft Center',
   description:
-    'Weaving workshops, cultural exhibitions, educational programs, a craft market, cultural events, theater activities, and a library & research center at NOUL.',
+    'Weaving workshops, cultural exhibitions, educational programs, a craft market, cultural events, theater activities, and a library & research center at NOL.',
 }
 
 const services = [
@@ -72,7 +72,7 @@ export default function ServicesPage() {
         title="Our Services"
         description="From the loom to the stage — a full spectrum of cultural and creative experiences under one roof."
         image="/images/workshop-interior.png"
-        imageAlt="Weaving workshop interior at NOUL"
+        imageAlt="Weaving workshop interior at NOL"
       />
 
       {/* Intro */}
@@ -86,7 +86,7 @@ export default function ServicesPage() {
               Experiences crafted to inspire, teach and connect.
             </h2>
             <p className="mt-8 text-pretty text-lg leading-relaxed text-muted-foreground">
-              NOUL brings together learning, production, exhibition, and
+              NOL brings together learning, production, exhibition, and
               celebration. Whether you come to weave, to learn, to shop, or
               simply to wander, every space is designed to immerse you in the
               living craft of Marsa Matrouh.
@@ -112,7 +112,7 @@ export default function ServicesPage() {
               Services
             </p>
             <h2 className="text-balance font-serif text-4xl font-light leading-[1.1] text-foreground lg:text-5xl">
-              Everything you can experience at NOUL
+              Everything you can experience at NOL
             </h2>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

@@ -6,10 +6,10 @@ export function HomeCta() {
   return (
     <section className="relative overflow-hidden">
       <Image
-        src="/images/IMPORTANT_THIS_IS_A_NIGHT_202606162335_(1).jpeg"
-        alt="NOUL Cultural Craft Center illuminated at night"
+        src="/images/facade-dusk.png"
+        alt="NOL Cultural Craft Center illuminated at dusk"
         fill
-        className="object-cover object-center"
+        className="object-cover"
         sizes="100vw"
       />
       <div className="absolute inset-0 bg-foreground/75" />
@@ -22,7 +22,7 @@ export function HomeCta() {
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-pretty text-lg leading-relaxed text-background/85">
           Discover the center, explore our services, wander the gallery, and
-          book your tickets to experience NOUL in person.
+          book your tickets to experience NOL in person.
         </p>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
           <Link

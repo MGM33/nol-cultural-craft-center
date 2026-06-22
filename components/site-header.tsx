@@ -13,7 +13,7 @@ const links = [
   { href: '/services', label: 'Services' },
   { href: '/tickets', label: 'Tickets' },
   { href: '/location', label: 'Location' },
-  { href: '/gallery', label: 'Gallery' },
+  { href: '/gallery', label: 'Gallery & Virtual Tour' },
 ]
 
 export function SiteHeader() {
@@ -39,10 +39,10 @@ export function SiteHeader() {
   return (
     <header
       className={cn(
-        'fixed inset-x-0 top-0 z-50 transition-[background-color,backdrop-filter,box-shadow] duration-500 ease-in-out',
+        'fixed inset-x-0 top-0 z-50 transition-all duration-500',
         transparent
-          ? 'bg-transparent shadow-none backdrop-blur-none'
-          : 'bg-background/85 shadow-[0_1px_0_0_oklch(0.86_0.02_80_/_0.6)] backdrop-blur-md',
+          ? 'bg-transparent'
+          : 'border-b border-border/60 bg-background/80 backdrop-blur-md',
       )}
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 lg:px-8">
@@ -52,7 +52,7 @@ export function SiteHeader() {
             'transition-colors',
             transparent ? 'text-background' : 'text-foreground',
           )}
-          aria-label="NOUL Cultural Craft Center home"
+          aria-label="NOL Cultural Craft Center home"
         >
           <NolLogo />
         </Link>

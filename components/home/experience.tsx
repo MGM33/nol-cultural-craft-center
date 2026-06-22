@@ -34,7 +34,7 @@ export function HomeExperience() {
             The Experience
           </p>
           <h2 className="text-balance font-serif text-4xl font-light leading-[1.1] text-foreground lg:text-5xl">
-            What visitors discover at NOUL
+            What visitors discover at NOL
           </h2>
         </div>
         <Link

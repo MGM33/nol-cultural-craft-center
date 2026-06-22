@@ -17,7 +17,7 @@ export function HomeHighlights() {
             The Center
           </p>
           <h2 className="text-balance font-serif text-4xl font-light leading-[1.1] text-foreground lg:text-5xl">
-            Key components of NOUL
+            Key components of NOL
           </h2>
         </div>
 

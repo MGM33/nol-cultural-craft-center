@@ -20,11 +20,9 @@ type Item = {
 }
 
 const items: Item[] = [
-  { src: '/images/IMPORTANT_THIS_IS_NOT_AN_202606162331.jpeg', alt: 'NOUL at golden hour — aerial view', category: 'Exterior / Architecture', size: 'wide' },
-  { src: '/images/IMPORTANT_THIS_IS_A_NIGHT_202606162335_(1).jpeg', alt: 'NOUL campus illuminated at night', category: 'Exterior / Architecture', size: 'tall' },
-  { src: '/images/IMPORTANT_THIS_IS_A_POST-PRODUCTION_202606162340.jpeg', alt: 'NOUL Cultural Craft Center — daytime aerial', category: 'Exterior / Architecture', size: 'wide' },
-  { src: '/images/ChatGPT_Image_Jun_21,_2026,_07_52_56_AM.png', alt: 'NOUL campus — alternate aerial overview', category: 'Exterior / Architecture', size: 'tall' },
-  { src: '/images/ChatGPT_Image_Jun_16,_2026,_10_48_31_PM.png', alt: 'NOUL Cultural Craft Center — site master plan', category: 'Exterior / Architecture', size: 'wide' },
+  { src: '/images/hero-exterior.png', alt: 'Center exterior at golden hour', category: 'Exterior / Architecture', size: 'wide' },
+  { src: '/images/aerial.png', alt: 'Aerial view of the campus', category: 'Exterior / Architecture', size: 'tall' },
+  { src: '/images/facade-dusk.png', alt: 'Facade glowing at dusk', category: 'Exterior / Architecture' },
   { src: '/images/courtyard.png', alt: 'Interior courtyard with woven canopies', category: 'Exterior / Architecture' },
   { src: '/images/workshop-interior.png', alt: 'Weaving workshop interior', category: 'Workshops & Craft Spaces', size: 'tall' },
   { src: '/images/weaving-loom.png', alt: 'Artisan working a traditional loom', category: 'Workshops & Craft Spaces' },
