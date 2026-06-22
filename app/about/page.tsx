@@ -1,22 +1,12 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import { PageHero } from '@/components/page-hero'
-import {
-  Sparkles,
-  HandHeart,
-  BookOpen,
-  Globe2,
-  Hammer,
-  Users,
-  Compass,
-  Search,
-  Home as HomeIcon,
-} from 'lucide-react'
+import { Sparkles, HandHeart, BookOpen, Globe as Globe2, Hammer, Users, Compass, Search, Hop as HomeIcon } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'About NOL | Cultural Craft Center',
+  title: 'About NOUL | Cultural Craft Center',
   description:
-    'NOL is a Cultural Craft Center inspired by the traditional weaving loom, preserving local handicrafts while creating a contemporary cultural destination in Marsa Matrouh.',
+    'NOUL is a Cultural Craft Center inspired by the traditional weaving loom, preserving local handicrafts while creating a contemporary cultural destination in Marsa Matrouh.',
 }
 
 const mission = [
@@ -55,13 +45,13 @@ export default function AboutPage() {
     <main>
       <PageHero
         eyebrow="About Us"
-        title="About NOL"
-        description="A cultural craft center inspired by the traditional weaving loom — Nool."
-        image="/images/gallery-hall.png"
-        imageAlt="Grand light-filled gallery atrium inside NOL Cultural Craft Center"
+        title="About NOUL"
+        description="A cultural craft center inspired by the traditional weaving loom — Noul."
+        image="/images/IMPORTANT_THIS_IS_A_POST-PRODUCTION_202606162340.jpeg"
+        imageAlt="Aerial render of NOUL Cultural Craft Center in Marsa Matrouh"
       />
 
-      {/* About NOL editorial */}
+      {/* About NOUL editorial */}
       <section className="mx-auto max-w-7xl px-5 py-24 lg:px-8 lg:py-32">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
           <div>
@@ -72,22 +62,22 @@ export default function AboutPage() {
               Woven from heritage, built for tomorrow.
             </h2>
             <p className="mt-8 text-pretty text-lg leading-relaxed text-muted-foreground">
-              NOL is a Cultural Craft Center inspired by the traditional weaving
-              loom (Nool). The project aims to preserve local handicrafts while
+              NOUL is a Cultural Craft Center inspired by the traditional weaving
+              loom (Noul). The project aims to preserve local handicrafts while
               creating a contemporary cultural destination in Marsa Matrouh.
             </p>
             <p className="mt-5 text-pretty text-base leading-relaxed text-muted-foreground">
-              Every thread tells a story. NOL gathers those stories under one
+              Every thread tells a story. NOUL gathers those stories under one
               roof — a place where the rhythm of the loom meets contemporary
               architecture, education, and community life.
             </p>
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
             <Image
-              src="/images/workshop-interior.png"
-              alt="Bright weaving workshop interior with rows of looms"
+              src="/images/ChatGPT_Image_Jun_16,_2026,_10_48_31_PM.png"
+              alt="NOUL Cultural Craft Center — architectural site master plan"
               fill
-              className="object-cover"
+              className="object-cover object-top"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
           </div>
@@ -102,7 +92,7 @@ export default function AboutPage() {
               Our Mission
             </p>
             <h2 className="text-balance font-serif text-4xl font-light leading-[1.1] text-foreground lg:text-5xl">
-              Four commitments at the heart of NOL
+              Four commitments at the heart of NOUL
             </h2>
           </div>
           <div className="grid gap-6 sm:grid-cols-2">
@@ -131,14 +121,14 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Who NOL serves */}
+      {/* Who NOUL serves */}
       <section className="mx-auto max-w-7xl px-5 py-24 lg:px-8 lg:py-32">
         <div className="mb-14 max-w-2xl">
           <p className="mb-5 text-xs font-semibold uppercase tracking-[0.28em] text-primary">
             Community
           </p>
           <h2 className="text-balance font-serif text-4xl font-light leading-[1.1] text-foreground lg:text-5xl">
-            Who NOL serves
+            Who NOUL serves
           </h2>
         </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -173,28 +163,28 @@ export default function AboutPage() {
           <div className="grid gap-4 lg:grid-cols-3 lg:grid-rows-2">
             <div className="relative overflow-hidden rounded-sm lg:col-span-2 lg:row-span-2 aspect-[4/3] lg:aspect-auto">
               <Image
-                src="/images/aerial.png"
-                alt="Aerial render of the NOL campus near the Mediterranean coast"
+                src="/images/IMPORTANT_THIS_IS_NOT_AN_202606162331.jpeg"
+                alt="NOUL Cultural Craft Center at golden hour — aerial view"
                 fill
-                className="object-cover"
+                className="object-cover object-center"
                 sizes="(max-width: 1024px) 100vw, 66vw"
               />
             </div>
             <div className="relative aspect-[4/3] overflow-hidden rounded-sm">
               <Image
-                src="/images/workshop-interior.png"
-                alt="Interior weaving workshop"
+                src="/images/IMPORTANT_THIS_IS_A_NIGHT_202606162335_(1).jpeg"
+                alt="NOUL campus illuminated at night from above"
                 fill
-                className="object-cover"
+                className="object-cover object-center"
                 sizes="(max-width: 1024px) 100vw, 33vw"
               />
             </div>
             <div className="relative aspect-[4/3] overflow-hidden rounded-sm">
               <Image
-                src="/images/exhibition.png"
-                alt="Exhibition hall displaying handwoven crafts"
+                src="/images/ChatGPT_Image_Jun_21,_2026,_07_52_56_AM.png"
+                alt="NOUL Cultural Craft Center — alternate aerial"
                 fill
-                className="object-cover"
+                className="object-cover object-center"
                 sizes="(max-width: 1024px) 100vw, 33vw"
               />
             </div>

@@ -14,12 +14,12 @@ const cormorant = Cormorant_Garamond({
 })
 
 export const metadata: Metadata = {
-  title: 'NOL Cultural Craft Center — Marsa Matrouh',
+  title: 'NOUL Cultural Craft Center — Marsa Matrouh',
   description:
-    'NOL (النول) is a cultural craft center in Marsa Matrouh, Egypt, dedicated to preserving and revitalizing traditional textile weaving heritage through learning, exhibition, and cultural experiences.',
+    'NOUL (النول) is a cultural craft center in Marsa Matrouh, Egypt, dedicated to preserving and revitalizing traditional textile weaving heritage through learning, exhibition, and cultural experiences.',
   generator: 'v0.app',
   keywords: [
-    'NOL',
+    'NOUL',
     'Cultural Craft Center',
     'Marsa Matrouh',
     'weaving',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     'artisans',
   ],
   openGraph: {
-    title: 'NOL Cultural Craft Center — Marsa Matrouh',
+    title: 'NOUL Cultural Craft Center — Marsa Matrouh',
     description:
       'Preserving heritage through weaving, culture and creativity in Marsa Matrouh, Egypt.',
     type: 'website',
