@@ -34,7 +34,7 @@ const nav = [
   { href: '/services', label: 'Services' },
   { href: '/tickets', label: 'Tickets' },
   { href: '/location', label: 'Location' },
-  { href: '/gallery', label: 'Gallery & Virtual Tour' },
+  { href: '/gallery', label: 'Gallery' },
 ]
 
 export function SiteFooter() {
@@ -118,7 +118,7 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-background/15 pt-7 text-xs text-background/50 sm:flex-row sm:items-center">
-          <p>© {new Date().getFullYear()} NOL Cultural Craft Center. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} NOUL Cultural Craft Center. All rights reserved.</p>
           <p className="tracking-[0.15em] uppercase">Marsa Matrouh · Egypt</p>
         </div>
       </div>
