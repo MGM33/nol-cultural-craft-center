@@ -27,6 +27,14 @@ export const metadata: Metadata = {
     'textile',
     'artisans',
   ],
+  icons: {
+    icon: [
+      { url: 'https://i.postimg.cc/76VjB8fG/Chat-GPT-Image-Jun-22-2026-09-49-07-AM.png', type: 'image/png', sizes: '32x32' },
+    ],
+    apple: [
+      { url: 'https://i.postimg.cc/76VjB8fG/Chat-GPT-Image-Jun-22-2026-09-49-07-AM.png', type: 'image/png', sizes: '180x180' },
+    ],
+  },
   openGraph: {
     title: 'NOUL Cultural Craft Center — Marsa Matrouh',
     description:

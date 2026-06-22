@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import { cn } from '@/lib/utils'
-import { IMAGES } from '@/lib/images'
+import { ALL_GALLERY_IMAGES } from '@/lib/images'
 
 type Category =
   | 'All'
@@ -20,22 +20,12 @@ type Item = {
   size?: 'tall' | 'wide' | 'normal'
 }
 
-const items: Item[] = [
-  { src: IMAGES.goldenHourAerial, alt: 'NOUL at golden hour — aerial view', category: 'Exterior / Architecture', size: 'wide' },
-  { src: IMAGES.nightAerial, alt: 'NOUL campus illuminated at night', category: 'Exterior / Architecture', size: 'tall' },
-  { src: IMAGES.daytimeAerial, alt: 'NOUL Cultural Craft Center — daytime aerial', category: 'Exterior / Architecture', size: 'wide' },
-  { src: IMAGES.alternateAerial, alt: 'NOUL campus — alternate aerial overview', category: 'Exterior / Architecture', size: 'tall' },
-  { src: IMAGES.siteMasterPlan, alt: 'NOUL Cultural Craft Center — site master plan', category: 'Exterior / Architecture', size: 'wide' },
-  { src: IMAGES.courtyard, alt: 'Interior courtyard with woven canopies', category: 'Exterior / Architecture' },
-  { src: IMAGES.workshopInterior, alt: 'Weaving workshop interior', category: 'Workshops & Craft Spaces', size: 'tall' },
-  { src: IMAGES.weavingLoom, alt: 'Artisan working a traditional loom', category: 'Workshops & Craft Spaces' },
-  { src: IMAGES.textileTexture, alt: 'Detail of handwoven textile', category: 'Workshops & Craft Spaces' },
-  { src: IMAGES.exhibition, alt: 'Craft exhibition hall', category: 'Exhibition Areas', size: 'wide' },
-  { src: IMAGES.galleryHall, alt: 'Light-filled gallery atrium', category: 'Exhibition Areas', size: 'tall' },
-  { src: IMAGES.theater, alt: 'Cultural theater and performance space', category: 'Cultural Theater / Events' },
-  { src: IMAGES.craftMarket, alt: 'Artisan craft market courtyard', category: 'Cultural Theater / Events', size: 'wide' },
-  { src: IMAGES.community, alt: 'Community weaving class', category: 'Community & Visitor Experience', size: 'tall' },
-]
+const items: Item[] = ALL_GALLERY_IMAGES.map((img) => ({
+  src: img.src,
+  alt: img.alt,
+  category: img.category,
+  size: img.size,
+}))
 
 const categories: Category[] = [
   'All',

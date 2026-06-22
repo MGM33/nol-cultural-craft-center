@@ -14,13 +14,13 @@ const featuredImages = [
   {
     src: IMAGES.goldenHourAerial,
     alt: 'NOUL Cultural Craft Center — golden hour aerial',
-    caption: 'Golden Hour',
+    caption: 'Golden Hour Aerial',
     span: 'lg:col-span-2 lg:row-span-2',
   },
   {
     src: IMAGES.nightAerial,
     alt: 'NOUL campus illuminated at night',
-    caption: 'Night',
+    caption: 'Night View',
     span: '',
   },
   {
@@ -39,6 +39,30 @@ const featuredImages = [
     src: IMAGES.siteMasterPlan,
     alt: 'NOUL Cultural Craft Center — site master plan',
     caption: 'Site Master Plan',
+    span: '',
+  },
+  {
+    src: IMAGES.weavingWork1,
+    alt: 'Traditional weaving workshop',
+    caption: 'Weaving Workshop',
+    span: 'lg:col-span-2',
+  },
+  {
+    src: IMAGES.textileDetail,
+    alt: 'Handwoven textile details',
+    caption: 'Textile Detail',
+    span: '',
+  },
+  {
+    src: IMAGES.workshopSpace,
+    alt: 'Interior workshop space',
+    caption: 'Workshop Space',
+    span: '',
+  },
+  {
+    src: IMAGES.craftDisplay,
+    alt: 'Craft exhibition display',
+    caption: 'Craft Display',
     span: '',
   },
 ]

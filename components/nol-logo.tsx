@@ -11,14 +11,13 @@ export function NolLogo({
 }) {
   return (
     <span className={cn('flex items-center gap-3 leading-none', className)}>
-      <span className="relative flex size-8 shrink-0 overflow-hidden rounded-sm border border-current/20">
+      <span className="relative flex size-10 shrink-0 overflow-hidden rounded-sm">
         <Image
-          src={IMAGES.goldenHourAerial}
-          alt=""
+          src={IMAGES.logo}
+          alt="NOUL Logo"
           fill
-          className="object-cover"
-          sizes="32px"
-          aria-hidden="true"
+          className="object-contain"
+          sizes="40px"
         />
       </span>
       <span className="flex items-baseline gap-2">
