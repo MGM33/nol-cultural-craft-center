@@ -33,7 +33,7 @@ export function HomeVision() {
             A living home for craft, culture and community.
           </h2>
           <p className="mt-8 text-pretty text-lg leading-relaxed text-muted-foreground">
-            NOL is a cultural craft center located in Marsa Matrouh, dedicated
+            NOUL is a cultural craft center located in Marsa Matrouh, dedicated
             to preserving and revitalizing traditional textile weaving heritage.
             The project creates a vibrant environment where artisans, visitors,
             students, and tourists can connect through learning, production,

@@ -3,9 +3,9 @@ import { PageHero } from '@/components/page-hero'
 import { MapPin, Mail, Phone, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Visit Us | NOL Cultural Craft Center',
+  title: 'Visit Us | NOUL Cultural Craft Center',
   description:
-    'Located near the northern coastal zone of Marsa Matrouh, NOL Cultural Craft Center connects local heritage with contemporary creative industries. Find directions, hours, and contact details.',
+    'Located near the northern coastal zone of Marsa Matrouh, NOUL Cultural Craft Center connects local heritage with contemporary creative industries. Find directions, hours, and contact details.',
 }
 
 const hours = [
@@ -20,8 +20,8 @@ export default function LocationPage() {
         eyebrow="Find Us"
         title="Visit Us"
         description="Marsa Matrouh, Egypt — a cultural gateway on the Mediterranean coast."
-        image="/images/facade-dusk.png"
-        imageAlt="NOL Cultural Craft Center facade illuminated at dusk"
+        image="/images/IMPORTANT_THIS_IS_A_NIGHT_202606162335_(1).jpeg"
+        imageAlt="NOUL Cultural Craft Center illuminated at night"
       />
 
       {/* Address + description */}
@@ -92,8 +92,8 @@ export default function LocationPage() {
           {/* Map */}
           <div className="overflow-hidden rounded-sm border border-border">
             <iframe
-              title="Map showing NOL Cultural Craft Center in Marsa Matrouh"
-              src="https://www.google.com/maps?q=Marsa+Matrouh,+Egypt&output=embed"
+              title="Map showing NOUL Cultural Craft Center in Marsa Matrouh"
+              src="https://maps.google.com/maps?q=31.3528,27.2453&z=15&output=embed"
               className="h-full min-h-[420px] w-full"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

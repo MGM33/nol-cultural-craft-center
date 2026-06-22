@@ -4,9 +4,9 @@ import { BookingForm } from '@/components/booking-form'
 import { Info, Clock, Ticket, Camera } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Entrance Tickets | NOL Cultural Craft Center',
+  title: 'Entrance Tickets | NOUL Cultural Craft Center',
   description:
-    'Book your visit to NOL Cultural Craft Center in Marsa Matrouh. View entrance ticket prices for adults, students, and children.',
+    'Book your visit to NOUL Cultural Craft Center in Marsa Matrouh. View entrance ticket prices for adults, students, and children.',
 }
 
 const tickets = [
@@ -30,9 +30,9 @@ export default function TicketsPage() {
       <PageHero
         eyebrow="Plan Your Visit"
         title="Entrance Tickets"
-        description="Choose your ticket and reserve your place at NOL Cultural Craft Center."
+        description="Choose your ticket and reserve your place at NOUL Cultural Craft Center."
         image="/images/courtyard.png"
-        imageAlt="Interior courtyard of NOL Cultural Craft Center"
+        imageAlt="Interior courtyard of NOUL Cultural Craft Center"
       />
 
       {/* Pricing */}

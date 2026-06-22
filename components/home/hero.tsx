@@ -7,11 +7,11 @@ export function HomeHero() {
   return (
     <section className="relative flex min-h-screen items-center overflow-hidden">
       <Image
-        src="/images/hero-exterior.png"
-        alt="Architectural render of NOL Cultural Craft Center at golden hour"
+        src="/images/IMPORTANT_THIS_IS_NOT_AN_202606162331.jpeg"
+        alt="Aerial render of NOUL Cultural Craft Center at golden hour, Marsa Matrouh"
         fill
         priority
-        className="object-cover"
+        className="object-cover object-center"
         sizes="100vw"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-foreground/55 via-foreground/35 to-foreground/80" />
@@ -27,7 +27,7 @@ export function HomeHero() {
           </div>
 
           <h1 className="text-balance font-serif text-5xl font-light leading-[1.04] text-background sm:text-6xl lg:text-7xl">
-            NOL Cultural Craft Center
+            NOUL Cultural Craft Center
           </h1>
           <p className="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-background/90 lg:text-xl">
             Preserving heritage through weaving, culture and creativity.
@@ -38,7 +38,7 @@ export function HomeHero() {
               href="/about"
               className="group inline-flex items-center gap-2 rounded-sm bg-primary px-7 py-3.5 text-sm font-medium uppercase tracking-[0.15em] text-primary-foreground transition-colors hover:bg-primary/90"
             >
-              Explore NOL
+              Explore NOUL
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </Link>
             <Link

@@ -3,11 +3,11 @@ import Link from 'next/link'
 import { ArrowUpRight } from 'lucide-react'
 
 const shots = [
-  { src: '/images/aerial.png', alt: 'Aerial view of the NOL campus', span: 'lg:col-span-2 lg:row-span-2' },
-  { src: '/images/courtyard.png', alt: 'Interior courtyard with woven shade canopies' },
+  { src: '/images/IMPORTANT_THIS_IS_A_POST-PRODUCTION_202606162340.jpeg', alt: 'NOUL Cultural Craft Center — daytime aerial', span: 'lg:col-span-2 lg:row-span-2' },
+  { src: '/images/IMPORTANT_THIS_IS_A_NIGHT_202606162335_(1).jpeg', alt: 'NOUL campus illuminated at night' },
+  { src: '/images/ChatGPT_Image_Jun_21,_2026,_07_52_56_AM.png', alt: 'NOUL campus aerial overview' },
+  { src: '/images/ChatGPT_Image_Jun_16,_2026,_10_48_31_PM.png', alt: 'NOUL site master plan' },
   { src: '/images/gallery-hall.png', alt: 'Light-filled gallery atrium' },
-  { src: '/images/facade-dusk.png', alt: 'Center facade glowing at dusk' },
-  { src: '/images/community.png', alt: 'Community weaving class in session' },
 ]
 
 export function HomeGalleryStrip() {
@@ -27,7 +27,7 @@ export function HomeGalleryStrip() {
             href="/gallery"
             className="group inline-flex items-center gap-2 text-sm font-medium uppercase tracking-[0.15em] text-background"
           >
-            View Gallery & Virtual Tour
+            View Gallery
             <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
         </div>
