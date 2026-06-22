@@ -94,7 +94,7 @@ export default function LocationPage() {
           <div className="overflow-hidden rounded-sm border border-border">
             <iframe
               title="Map showing NOUL Cultural Craft Center in Marsa Matrouh"
-              src="https://maps.google.com/maps?q=31.3528,27.2453&z=15&output=embed"
+              src="https://maps.google.com/maps?q=31.3624142,27.1744670&z=15&output=embed"
               className="h-full min-h-[420px] w-full"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
