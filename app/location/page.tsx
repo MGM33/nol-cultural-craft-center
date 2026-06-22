@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { PageHero } from '@/components/page-hero'
 import { MapPin, Mail, Phone, Clock } from 'lucide-react'
+import { IMAGES } from '@/lib/images'
 
 export const metadata: Metadata = {
   title: 'Visit Us | NOUL Cultural Craft Center',
@@ -20,7 +21,7 @@ export default function LocationPage() {
         eyebrow="Find Us"
         title="Visit Us"
         description="Marsa Matrouh, Egypt — a cultural gateway on the Mediterranean coast."
-        image="/images/IMPORTANT_THIS_IS_A_NIGHT_202606162335_(1).jpeg"
+        image={IMAGES.nightAerial}
         imageAlt="NOUL Cultural Craft Center illuminated at night"
       />
 

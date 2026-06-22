@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { IMAGES } from '@/lib/images'
 
 export function HomeVision() {
   return (
@@ -7,7 +8,7 @@ export function HomeVision() {
         <div className="relative">
           <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
             <Image
-              src="/images/weaving-loom.png"
+              src={IMAGES.weavingLoom}
               alt="Artisan weaving on a traditional wooden loom"
               fill
               className="object-cover"
@@ -16,7 +17,7 @@ export function HomeVision() {
           </div>
           <div className="absolute -bottom-6 -right-6 hidden aspect-square w-44 overflow-hidden rounded-sm border-4 border-background lg:block">
             <Image
-              src="/images/textile-texture.png"
+              src={IMAGES.textileTexture}
               alt="Detail of handwoven textile threads"
               fill
               className="object-cover"

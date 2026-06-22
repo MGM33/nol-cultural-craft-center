@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import { PageHero } from '@/components/page-hero'
 import { GalleryGrid } from '@/components/gallery-grid'
+import { IMAGES } from '@/lib/images'
 
 export const metadata: Metadata = {
   title: 'Gallery | NOUL Cultural Craft Center',
@@ -11,31 +12,31 @@ export const metadata: Metadata = {
 
 const featuredImages = [
   {
-    src: '/images/IMPORTANT_THIS_IS_NOT_AN_202606162331.jpeg',
+    src: IMAGES.goldenHourAerial,
     alt: 'NOUL Cultural Craft Center — golden hour aerial',
     caption: 'Golden Hour',
     span: 'lg:col-span-2 lg:row-span-2',
   },
   {
-    src: '/images/IMPORTANT_THIS_IS_A_NIGHT_202606162335_(1).jpeg',
+    src: IMAGES.nightAerial,
     alt: 'NOUL campus illuminated at night',
     caption: 'Night',
     span: '',
   },
   {
-    src: '/images/IMPORTANT_THIS_IS_A_POST-PRODUCTION_202606162340.jpeg',
+    src: IMAGES.daytimeAerial,
     alt: 'NOUL Cultural Craft Center — daytime aerial',
     caption: 'Daytime Aerial',
     span: '',
   },
   {
-    src: '/images/ChatGPT_Image_Jun_21,_2026,_07_52_56_AM.png',
+    src: IMAGES.alternateAerial,
     alt: 'NOUL campus — alternate aerial overview',
     caption: 'Campus Overview',
     span: '',
   },
   {
-    src: '/images/ChatGPT_Image_Jun_16,_2026,_10_48_31_PM.png',
+    src: IMAGES.siteMasterPlan,
     alt: 'NOUL Cultural Craft Center — site master plan',
     caption: 'Site Master Plan',
     span: '',
@@ -49,7 +50,7 @@ export default function GalleryPage() {
         eyebrow="Explore NOUL"
         title="Gallery"
         description="Wander the architecture, spaces, and cultural heart of NOUL Cultural Craft Center."
-        image="/images/IMPORTANT_THIS_IS_A_POST-PRODUCTION_202606162340.jpeg"
+        image={IMAGES.daytimeAerial}
         imageAlt="Daytime aerial of NOUL Cultural Craft Center in Marsa Matrouh"
       />
 
@@ -124,7 +125,7 @@ export default function GalleryPage() {
         <div className="grid items-stretch gap-0 overflow-hidden rounded-sm border border-border lg:grid-cols-2">
           <div className="relative min-h-[340px] lg:min-h-[520px]">
             <Image
-              src="/images/IMPORTANT_THIS_IS_NOT_AN_202606162331.jpeg"
+              src={IMAGES.goldenHourAerial}
               alt="NOUL Cultural Craft Center — aerial golden hour"
               fill
               className="object-cover object-center"

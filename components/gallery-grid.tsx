@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import { cn } from '@/lib/utils'
+import { IMAGES } from '@/lib/images'
 
 type Category =
   | 'All'
@@ -20,20 +21,20 @@ type Item = {
 }
 
 const items: Item[] = [
-  { src: '/images/IMPORTANT_THIS_IS_NOT_AN_202606162331.jpeg', alt: 'NOUL at golden hour — aerial view', category: 'Exterior / Architecture', size: 'wide' },
-  { src: '/images/IMPORTANT_THIS_IS_A_NIGHT_202606162335_(1).jpeg', alt: 'NOUL campus illuminated at night', category: 'Exterior / Architecture', size: 'tall' },
-  { src: '/images/IMPORTANT_THIS_IS_A_POST-PRODUCTION_202606162340.jpeg', alt: 'NOUL Cultural Craft Center — daytime aerial', category: 'Exterior / Architecture', size: 'wide' },
-  { src: '/images/ChatGPT_Image_Jun_21,_2026,_07_52_56_AM.png', alt: 'NOUL campus — alternate aerial overview', category: 'Exterior / Architecture', size: 'tall' },
-  { src: '/images/ChatGPT_Image_Jun_16,_2026,_10_48_31_PM.png', alt: 'NOUL Cultural Craft Center — site master plan', category: 'Exterior / Architecture', size: 'wide' },
-  { src: '/images/courtyard.png', alt: 'Interior courtyard with woven canopies', category: 'Exterior / Architecture' },
-  { src: '/images/workshop-interior.png', alt: 'Weaving workshop interior', category: 'Workshops & Craft Spaces', size: 'tall' },
-  { src: '/images/weaving-loom.png', alt: 'Artisan working a traditional loom', category: 'Workshops & Craft Spaces' },
-  { src: '/images/textile-texture.png', alt: 'Detail of handwoven textile', category: 'Workshops & Craft Spaces' },
-  { src: '/images/exhibition.png', alt: 'Craft exhibition hall', category: 'Exhibition Areas', size: 'wide' },
-  { src: '/images/gallery-hall.png', alt: 'Light-filled gallery atrium', category: 'Exhibition Areas', size: 'tall' },
-  { src: '/images/theater.png', alt: 'Cultural theater and performance space', category: 'Cultural Theater / Events' },
-  { src: '/images/craft-market.png', alt: 'Artisan craft market courtyard', category: 'Cultural Theater / Events', size: 'wide' },
-  { src: '/images/community.png', alt: 'Community weaving class', category: 'Community & Visitor Experience', size: 'tall' },
+  { src: IMAGES.goldenHourAerial, alt: 'NOUL at golden hour — aerial view', category: 'Exterior / Architecture', size: 'wide' },
+  { src: IMAGES.nightAerial, alt: 'NOUL campus illuminated at night', category: 'Exterior / Architecture', size: 'tall' },
+  { src: IMAGES.daytimeAerial, alt: 'NOUL Cultural Craft Center — daytime aerial', category: 'Exterior / Architecture', size: 'wide' },
+  { src: IMAGES.alternateAerial, alt: 'NOUL campus — alternate aerial overview', category: 'Exterior / Architecture', size: 'tall' },
+  { src: IMAGES.siteMasterPlan, alt: 'NOUL Cultural Craft Center — site master plan', category: 'Exterior / Architecture', size: 'wide' },
+  { src: IMAGES.courtyard, alt: 'Interior courtyard with woven canopies', category: 'Exterior / Architecture' },
+  { src: IMAGES.workshopInterior, alt: 'Weaving workshop interior', category: 'Workshops & Craft Spaces', size: 'tall' },
+  { src: IMAGES.weavingLoom, alt: 'Artisan working a traditional loom', category: 'Workshops & Craft Spaces' },
+  { src: IMAGES.textileTexture, alt: 'Detail of handwoven textile', category: 'Workshops & Craft Spaces' },
+  { src: IMAGES.exhibition, alt: 'Craft exhibition hall', category: 'Exhibition Areas', size: 'wide' },
+  { src: IMAGES.galleryHall, alt: 'Light-filled gallery atrium', category: 'Exhibition Areas', size: 'tall' },
+  { src: IMAGES.theater, alt: 'Cultural theater and performance space', category: 'Cultural Theater / Events' },
+  { src: IMAGES.craftMarket, alt: 'Artisan craft market courtyard', category: 'Cultural Theater / Events', size: 'wide' },
+  { src: IMAGES.community, alt: 'Community weaving class', category: 'Community & Visitor Experience', size: 'tall' },
 ]
 
 const categories: Category[] = [

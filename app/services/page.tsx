@@ -12,6 +12,7 @@ import {
   Drama,
   Library,
 } from 'lucide-react'
+import { IMAGES } from '@/lib/images'
 
 export const metadata: Metadata = {
   title: 'Our Services | NOUL Cultural Craft Center',
@@ -58,10 +59,10 @@ const services = [
 ]
 
 const activity = [
-  { src: '/images/community.png', alt: 'Community weaving class in session' },
-  { src: '/images/exhibition.png', alt: 'Craft exhibition hall' },
-  { src: '/images/craft-market.png', alt: 'Artisan craft market courtyard' },
-  { src: '/images/theater.png', alt: 'Cultural theater performance space' },
+  { src: IMAGES.community, alt: 'Community weaving class in session' },
+  { src: IMAGES.exhibition, alt: 'Craft exhibition hall' },
+  { src: IMAGES.craftMarket, alt: 'Artisan craft market courtyard' },
+  { src: IMAGES.theater, alt: 'Cultural theater performance space' },
 ]
 
 export default function ServicesPage() {
@@ -71,7 +72,7 @@ export default function ServicesPage() {
         eyebrow="What We Offer"
         title="Our Services"
         description="From the loom to the stage — a full spectrum of cultural and creative experiences under one roof."
-        image="/images/workshop-interior.png"
+        image={IMAGES.workshopInterior}
         imageAlt="Weaving workshop interior at NOUL"
       />
 
@@ -94,7 +95,7 @@ export default function ServicesPage() {
           </div>
           <div className="relative aspect-[16/11] overflow-hidden rounded-sm">
             <Image
-              src="/images/courtyard.png"
+              src={IMAGES.courtyard}
               alt="Serene interior courtyard with woven shade canopies"
               fill
               className="object-cover"
@@ -141,7 +142,7 @@ export default function ServicesPage() {
         <div className="grid items-stretch gap-0 overflow-hidden rounded-sm border border-border lg:grid-cols-2">
           <div className="relative min-h-[340px] lg:min-h-[520px]">
             <Image
-              src="/images/weaving-loom.png"
+              src={IMAGES.weavingLoom}
               alt="Artisan weaving on a traditional loom"
               fill
               className="object-cover"

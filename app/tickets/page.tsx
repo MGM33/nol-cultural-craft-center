@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { PageHero } from '@/components/page-hero'
 import { BookingForm } from '@/components/booking-form'
 import { Info, Clock, Ticket, Camera } from 'lucide-react'
+import { IMAGES } from '@/lib/images'
 
 export const metadata: Metadata = {
   title: 'Entrance Tickets | NOUL Cultural Craft Center',
@@ -31,7 +32,7 @@ export default function TicketsPage() {
         eyebrow="Plan Your Visit"
         title="Entrance Tickets"
         description="Choose your ticket and reserve your place at NOUL Cultural Craft Center."
-        image="/images/courtyard.png"
+        image={IMAGES.courtyard}
         imageAlt="Interior courtyard of NOUL Cultural Craft Center"
       />
 

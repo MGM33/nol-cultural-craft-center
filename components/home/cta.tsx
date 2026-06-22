@@ -1,12 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
+import { IMAGES } from '@/lib/images'
 
 export function HomeCta() {
   return (
     <section className="relative overflow-hidden">
       <Image
-        src="/images/IMPORTANT_THIS_IS_A_NIGHT_202606162335_(1).jpeg"
+        src={IMAGES.nightAerial}
         alt="NOUL Cultural Craft Center illuminated at night"
         fill
         className="object-cover object-center"

@@ -2,12 +2,13 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import { NolLogo } from '@/components/nol-logo'
+import { IMAGES } from '@/lib/images'
 
 export function HomeHero() {
   return (
     <section className="relative flex min-h-screen items-center overflow-hidden">
       <Image
-        src="/images/IMPORTANT_THIS_IS_NOT_AN_202606162331.jpeg"
+        src={IMAGES.goldenHourAerial}
         alt="Aerial render of NOUL Cultural Craft Center at golden hour, Marsa Matrouh"
         fill
         priority

@@ -1,27 +1,28 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowUpRight } from 'lucide-react'
+import { IMAGES } from '@/lib/images'
 
 const experiences = [
   {
     title: 'Weaving Workshops',
     text: 'Learn traditional techniques on the loom alongside master artisans.',
-    image: '/images/workshop-interior.png',
+    image: IMAGES.workshopInterior,
   },
   {
     title: 'Exhibitions',
     text: 'Permanent and rotating displays celebrating local textile heritage.',
-    image: '/images/exhibition.png',
+    image: IMAGES.exhibition,
   },
   {
     title: 'Cultural Events',
     text: 'Festivals, performances and gatherings throughout the year.',
-    image: '/images/theater.png',
+    image: IMAGES.theater,
   },
   {
     title: 'Artisan Market',
     text: 'Handmade textiles and crafts created by the local community.',
-    image: '/images/craft-market.png',
+    image: IMAGES.craftMarket,
   },
 ]
 

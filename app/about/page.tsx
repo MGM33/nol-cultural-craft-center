@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import { PageHero } from '@/components/page-hero'
 import { Sparkles, HandHeart, BookOpen, Globe as Globe2, Hammer, Users, Compass, Search, Hop as HomeIcon } from 'lucide-react'
+import { IMAGES } from '@/lib/images'
 
 export const metadata: Metadata = {
   title: 'About NOUL | Cultural Craft Center',
@@ -47,7 +48,7 @@ export default function AboutPage() {
         eyebrow="About Us"
         title="About NOUL"
         description="A cultural craft center inspired by the traditional weaving loom — Noul."
-        image="/images/IMPORTANT_THIS_IS_A_POST-PRODUCTION_202606162340.jpeg"
+        image={IMAGES.daytimeAerial}
         imageAlt="Aerial render of NOUL Cultural Craft Center in Marsa Matrouh"
       />
 
@@ -74,7 +75,7 @@ export default function AboutPage() {
           </div>
           <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
             <Image
-              src="/images/ChatGPT_Image_Jun_16,_2026,_10_48_31_PM.png"
+              src={IMAGES.siteMasterPlan}
               alt="NOUL Cultural Craft Center — architectural site master plan"
               fill
               className="object-cover object-top"
@@ -163,7 +164,7 @@ export default function AboutPage() {
           <div className="grid gap-4 lg:grid-cols-3 lg:grid-rows-2">
             <div className="relative overflow-hidden rounded-sm lg:col-span-2 lg:row-span-2 aspect-[4/3] lg:aspect-auto">
               <Image
-                src="/images/IMPORTANT_THIS_IS_NOT_AN_202606162331.jpeg"
+                src={IMAGES.goldenHourAerial}
                 alt="NOUL Cultural Craft Center at golden hour — aerial view"
                 fill
                 className="object-cover object-center"
@@ -172,7 +173,7 @@ export default function AboutPage() {
             </div>
             <div className="relative aspect-[4/3] overflow-hidden rounded-sm">
               <Image
-                src="/images/IMPORTANT_THIS_IS_A_NIGHT_202606162335_(1).jpeg"
+                src={IMAGES.nightAerial}
                 alt="NOUL campus illuminated at night from above"
                 fill
                 className="object-cover object-center"
@@ -181,7 +182,7 @@ export default function AboutPage() {
             </div>
             <div className="relative aspect-[4/3] overflow-hidden rounded-sm">
               <Image
-                src="/images/ChatGPT_Image_Jun_21,_2026,_07_52_56_AM.png"
+                src={IMAGES.alternateAerial}
                 alt="NOUL Cultural Craft Center — alternate aerial"
                 fill
                 className="object-cover object-center"

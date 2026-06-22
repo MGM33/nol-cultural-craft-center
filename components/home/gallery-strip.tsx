@@ -1,13 +1,14 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowUpRight } from 'lucide-react'
+import { IMAGES } from '@/lib/images'
 
 const shots = [
-  { src: '/images/IMPORTANT_THIS_IS_A_POST-PRODUCTION_202606162340.jpeg', alt: 'NOUL Cultural Craft Center — daytime aerial', span: 'lg:col-span-2 lg:row-span-2' },
-  { src: '/images/IMPORTANT_THIS_IS_A_NIGHT_202606162335_(1).jpeg', alt: 'NOUL campus illuminated at night' },
-  { src: '/images/ChatGPT_Image_Jun_21,_2026,_07_52_56_AM.png', alt: 'NOUL campus aerial overview' },
-  { src: '/images/ChatGPT_Image_Jun_16,_2026,_10_48_31_PM.png', alt: 'NOUL site master plan' },
-  { src: '/images/gallery-hall.png', alt: 'Light-filled gallery atrium' },
+  { src: IMAGES.daytimeAerial, alt: 'NOUL Cultural Craft Center — daytime aerial', span: 'lg:col-span-2 lg:row-span-2' },
+  { src: IMAGES.nightAerial, alt: 'NOUL campus illuminated at night' },
+  { src: IMAGES.alternateAerial, alt: 'NOUL campus aerial overview' },
+  { src: IMAGES.siteMasterPlan, alt: 'NOUL site master plan' },
+  { src: IMAGES.galleryHall, alt: 'Light-filled gallery atrium' },
 ]
 
 export function HomeGalleryStrip() {
